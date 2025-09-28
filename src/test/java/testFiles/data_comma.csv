@@ -1,0 +1,10 @@
+id,name,age,active,quote,notes
+1,Ana,30,true,"Dijo ""hola""","simple row"
+2,Luis,,false,"Multilínea
+aquí","edad vacía → null con --empty-as-null"
+3,"María, Gómez",27,true,"Coma en nombre","nombre con coma"
+4,Pepe,2147483648,false,"Long overflow test","age > Integer.MAX_VALUE"
+5,Anaïs,31,TRUE,"Boolean uppercase","TRUE en mayúsculas"
+6,"Campo con ""comillas"" dentro",22,false,"Ok","campo con comillas escapadas"
+7,NullStr,"",true,"empty string field",""
+8,Spaces, ,false,"space as blank","espacio en age"
